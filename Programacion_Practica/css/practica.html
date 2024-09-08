@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendiendo CSS</title>
+    <link rel="stylesheet" type="text/css" href="practica.css">
+</head>
+<body>
+    <!--Vinculando mi archivo HTML con mi CSS-->
+    <!--Haciendo un titulo y alineandolo y tambien poniendo un id para despues utilizarlo con el CSS-->
+    <!--Poniendo un titulo-->
+    <h1 align="center" id="titulo" class="titulo">Aprendiendo CSS</h1>
+    <!--Haciendo una lista y poniendo un ID para despues utilizarlo con el CSS-->  
+    <ul id="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Temario</a></li>
+        <ul>
+            <li><a href="#">HTML</a></li>
+            <li><a href="#">CSS</a></li>
+            <li><a href="#">LESS</a></li>
+        </ul>
+        <li><a href="#">Reseñas</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+    <!--Haciendo un contenedor-->
+    <div id="descripcion">
+        <!--Sub titutlo-->
+        <h2>Descripcion del Curso</h2>
+        <!--Parrafo-->
+        <p class="parrafo1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea nulla doloribus laudantium eius minima distinctio reprehenderit cupiditate ratione. Animi voluptatibus fugit ab, dolores excepturi 
+            recusandae asperiores voluptas perferendis distinctio obcaecati?</p>
+        <p class="parrafo2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis beatae amet, repudiandae ipsa dicta eaque deleniti est! Molestiae porro doloremque obcaecati dignissimos? 
+            Eveniet fuga aperiam quis officia, iure dolorem dolores.</p>
+    </div>
+    <!--Salto de Linea-->
+    <br><br>
+    <div id="usuario">
+        <!--Formulario-->
+        <form>
+           <label for="Nombre">Nombre</label>
+           <input type="text" name="nombre" value="">
+           <label for="Apellido">Apellido</label>
+           <input type="text" name="Apellido" value="">
+           <input type="submit" name="" value="Enviar">
+        </form>
+
+    </div>
+    <div id="saludo">
+        <h1 align="center">Hola estoy Aprendiendo CSS</h1>
+    </div>
+    <footer>
+        <!--El copy lo que ara es generar un caracter especial -->
+        Derechos reservados de Autor &copy; <a href="adrianweb.online" target="_blank">Pagina web de Adrian</a>
+    </footer>
+</body>
+</html>

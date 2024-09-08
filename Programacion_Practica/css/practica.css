@@ -1,0 +1,35 @@
+/*Aprendiendo a utilizar CSS*/
+/*Selectores*/
+
+/*Haciendo un Selector Universal*/
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/*Selectores de Etiqueta*/
+/*Lo que hacemos es seleccionar todas las etiquetas h1 de mi HTML*/
+h1{
+    /*Lo que hacemos aca es pintar el fondo del selector indicado*/
+    /*Pindanto el Fondo de color Rojo*/
+    background: red;
+    /*Poniendole Color a la Letra */
+    color: white;
+    /*El padding lo que hace es agrandar el fondo del backgorund le estamos dando 10px de fondo*/
+    padding: 10px;
+}
+
+/*Lo que hacemos es seleccionar todas las etiquetas a de mi HTML*/
+a{
+    font-size: 18px; /*Tamaño de letra*/
+    color: green;
+    /*Lo que hace es quitar la linea a los enlaces */
+    text-decoration: none;
+}
+footer a{
+    /*Cambiando de color la letra */
+    color: red;
+    
+
+}
